@@ -5,7 +5,7 @@
   height: 70px;
   background-color: limegreen;
   color: $mainColor;
-  position: fixed;
+  position: sticky;
   top: 0;
   z-index: 3;
   transition: all 1s ease;

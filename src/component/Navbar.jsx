@@ -1,5 +1,4 @@
-import styles from "./navbar.scss";
-import { Person, Mail } from "@mui/icons-material";
+import"./navbar.scss";
 import { LocationOn, Home } from '@mui/icons-material';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
@@ -7,7 +6,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     <div className={"topbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <a href="#intro" className="logo">
+          <a href="/" className="logo">
             E-Nafish
           </a>
           <div className="itemContainer">
